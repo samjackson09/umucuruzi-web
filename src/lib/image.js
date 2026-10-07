@@ -1,8 +1,4 @@
-const API_URL =
-  import.meta.env.VITE_API_URL ||
-  "https://app-f57c4746-3838-4314-8c7e-de2713c61ef2.cleverapps.io/api";
-
-const BASE_URL = API_URL.replace(/\/api\/?$/, "");
+const BASE_URL = "https://app-f57c4746-3838-4314-8c7e-de2713c61ef2.cleverapps.io";
 
 export const getFullImageUrl = (path) => {
   if (!path) return null;
